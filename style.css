@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.img{
+    background-color: rgb(15, 210, 145);
+}
+.logo1 img{
+    width: 70px;
+    height: 70px;
+ margin-left: 20px;
+
+    
+}
+.logo{
+    background-image: url("mm.gif");
+}
+.logo{
+    padding-top: 30px;
+}
+
+.logo ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo ul li{
+    list-style-type: none;
+    
+}
+
+
+
+ul li a {
+    text-decoration:none;
+    color: #090909;
+    padding: 5px 20px;
+    border: 1px solid rgb(89, 0, 255) transparent;
+    transition: 0.6s ease;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px 5px;
+  }
+
+ul li a:hover{
+    background-color: rgb(208, 255, 0);
+    color: black;
+}
+
+ul li.active a {
+    background-color: rgb(255, 221, 0);
+    color: black;
+  }
